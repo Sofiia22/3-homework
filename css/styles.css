@@ -42,7 +42,7 @@ body {
 
 .header {
     background-color: var(--wight-text);
-    border: 1px solid #ececec;
+    border-bottom:1px solid #ECECEC;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,7 +63,7 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    padding: 32px 0;
+    padding: 24px 0;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 93px;
@@ -91,7 +91,13 @@ body {
     list-style: none;
     display: flex;
     padding: 0;
+    
 }
+
+.header-item {
+    margin-right: 50px;
+}
+
 
 .header-link {
     font-weight: 500;
@@ -102,11 +108,7 @@ body {
     text-decoration: none;
     display: block;
     padding: 32px 0;
-    margin-right: 50px;
 }
-
-
-
 
 
 .contact-info {
@@ -252,7 +254,8 @@ body {
 
 /* --DETAILS-- */
 .details {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .details-title {
@@ -262,7 +265,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .detail-list {
@@ -298,7 +301,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-list {
@@ -326,7 +329,6 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-    padding-top: 30px;
 }
 
 .team-text {
@@ -336,13 +338,19 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: #757575;
-    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.team-info {
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 
 /* --FOOTER-- */
 .footer {
     background-color: #757575;
-    margin-top: 94px;
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -354,7 +362,7 @@ body {
     letter-spacing: 0.03em;
     display: block;
     text-decoration: none;
-    padding-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer-logo-web {
@@ -372,7 +380,7 @@ body {
     align-items: left;
     text-align: left;
     padding-left: 0;
-    padding-top: 20px;
+
 
 }
 
@@ -391,6 +399,7 @@ body {
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
+    margin-bottom: 9px;
 }
 
 
@@ -405,11 +414,15 @@ body {
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.footer-item {
+    margin-bottom: 9px;
 }
 
 /* ---MAIN--- */
 .main {
-    margin-top: 94px;
 }
 
 .container-main {
@@ -473,6 +486,11 @@ body {
 
 .apps {
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.apps-info {
+    padding: 20px 24px;
 }
 
 .container-apps {
@@ -502,7 +520,6 @@ body {
 
 .apps-item {
     width: 370px; 
-    height: 404px;
     background: #FFFFFF;
         border: 1px solid #EEEEEE;
 }
@@ -510,17 +527,16 @@ body {
 .apps-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.14;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    padding-top: 20px;
+    margin-bottom: 4px;
 }
 
 .apps-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.14;
+    line-height: 1.86;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-top: 4px;
 }
